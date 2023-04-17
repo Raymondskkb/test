@@ -10,8 +10,8 @@ jobs:
     needs: setup
     
     steps: 
-      - uses: actions/checkout@v3
-      - name: demo workflow job step 1
-        run: echo This is a demo start workflow
-      - name: demo workflow job Step 2
-        run: echo This is Demo 2
+    - uses: actions/checkout@v3
+    - name: demo workflow job step 1
+      run: echo This is a demo start workflow
+    - name: demo workflow job Step 2
+      run: echo This is Demo 2
