@@ -4,6 +4,10 @@ on: [pull_request, push]
 jobs:
   setup:
     runs-on: ubuntu-latest
+    steps: 
+    - uses: actions/checkout@v3
+    - name: demo workflow job step 1
+      run: echo This is a demo start workflow 1
  
   build:
     runs-on: ubuntu-latest
@@ -11,7 +15,5 @@ jobs:
     
     steps: 
     - uses: actions/checkout@v3
-    - name: demo workflow job step 1
-      run: echo This is a demo start workflow
     - name: demo workflow job Step 2
       run: echo This is Demo 2
