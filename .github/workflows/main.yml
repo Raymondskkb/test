@@ -1,9 +1,5 @@
 name: Starter Workflow Demo
-on:
-  push:
-    branches:  "*"
-  pull_request:
-    branches: "*"
+on: [pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
