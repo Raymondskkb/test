@@ -1,3 +1,4 @@
 # Test
 test tests
-jkkjk
+
+![example workflow](https://github.com/Raymondskkb/api-testing/actions/workflows/config.yml/badge.svg)
