@@ -22,4 +22,6 @@ jobs:
     steps: 
     - uses: actions/checkout@v3
     - name: demo workflow job Step 2
-      run: echo Demo unit tests
+      run: echo This is a fail step
+    - name: Install Mocha
+      run: npm install mocha && echo successfully Installed !!

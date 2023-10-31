@@ -1,4 +1,4 @@
 # Test
-test tests
+test: test for integration
 
-![example workflow](https://github.com/Raymondskkb/api-testing/actions/workflows/config.yml/badge.svg)
+![example workflow](https://github.com/Raymondskkb/test/actions/workflows/main.yml/badge.svg)
