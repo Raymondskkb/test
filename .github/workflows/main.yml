@@ -22,4 +22,4 @@ jobs:
     steps: 
     - uses: actions/checkout@v3
     - name: demo workflow job Step 2
-      run: echo Demo unit tests
+      runs: echo Demo unit tests
